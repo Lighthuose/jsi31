@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b25957ae4f.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: yellow;
+        }
+
+        #search-box {
+            background: #fff;
+            border-radius: 30px;
+        }
+
+        #search-text {
+            background-color: black;
+        }
+
+        #search-box #search-text {
+            border: none;
+            outline: none;
+            background: none;
+            padding: 0;
+            width: 0;
+            /* border:1px solid black; */
+        }
+
+        #search-box #search-btn {
+            background-color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        #search-box:hover #search-text {
+            width: 150px;
+            padding: 10px;
+            border:1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" id="search-box">
+        <input type="text" id="search-text">
+        <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+</body>
+
+</html>

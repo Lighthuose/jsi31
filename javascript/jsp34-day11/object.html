@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let valorant = {
+            valorantName: "HaiDang",
+            favoritecharacter: "yoru",
+            firstskill: "đánh lạc hướng-C",
+            secondskill: "Điểm Mù-Q",
+            thirdskill: "Phá Cổng-E",
+            fourthskill: "Dịch Chuyển Không Gian-X",
+            charaterstrength: "5",
+            charaterweaknesses: "4",
+            favoriteweapon: "Odin",
+            rank: "sắt",
+        }
+
+        console.log(valorant.valorantName);
+
+        valorant.charaterstrength = 3
+
+        valorant.rank = "vàng"
+
+        valorant.favoritecharacter = "oprator"
+
+        valorant.charaterweaknesses = "2"
+
+        console.log(valorant)
+
+        //cách để truy cập vào thuộc tính và lấy giá trị của chúng: tên đối tượng.thuộc tính
+        // console.log(car.carName);//=)Mazda
+        //thay đổi giá trị của 1 thuộc tính: tên dối tượng.thuộc tính = "giá trị mới"
+        // car.carWheels = 5
+
+        //khai báo thêm thuộc tính: tên_đối_tượng.thuộc_tính_mới = giá trị gì đó
+        // car.carColor = "black"
+
+        // let name = prompt("Enter Name: ");
+        // let age = prompt("Enter Age: ");
+        // let school = prompt ("Enter school");
+        // let Student ={
+        //     StudentName: name,
+        //     StudentAge: age,
+        //     StudentSchool: school,
+        // }
+        // console.log(Student)
+// Tạo ra hàm prompt cho phép người dùng nhập tên ô tô và nếu thỏa 1 trong những carName ở dưới đây thì in ra đối tượng đấy
+
+// let carName = prompt("[1]Mazda \n[2]Toyota\n[3]Mercedes\nEnter CarName: ")
+
+// let car1 = {
+//   carName: "Mazda",
+//   carWheels: 4,
+//   carEngine: "V12",
+// };
+
+// let car2 = {
+//   carName: "Toyota",
+//   carWheels: 5,
+//   carEngine: "V11",
+// };
+
+// let car3 = {
+//   carName: "Mercedes",
+//   carWheels: 6,
+//   carEngine: "Turbo",
+// };
+
+// if (carName == car1.carName){
+//     console.log(car1)
+// } else if (carName == car2.carName){
+//    console.log(car2)
+// }  else if (carName == car3.carName){
+//    console.log(car3)
+// }
+
+let a  = prompt("Enter carWheels1: ");
+let b = prompt("Enter carWheels2: ");
+let c = prompt("Enter carWheels3: ");
+
+if(a > b && a > c){
+    console.log("Mazda co số lốp lớn nhất")
+} else if(b > a && b > c ){
+    console.log("Toyota có số lốp  lớn nhất")
+} else if( c > a && c > a ){
+    console.log("Mercedes lớn nhất")
+}
+    </script>
+
+
+</body> 
+
+</html>

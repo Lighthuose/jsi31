@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hello JSB34</h1>
+    <input type="button" id="one">Green</input>
+    <input type="button" id="two">Blue</input>
+    <input type="button" id="three">Red</input>
+    <script>
+        function changeColor(color){
+            document.body.style.backgroundColor = color;
+        }
+        // khai báo biến
+        var btnOne = document.getElementById("one");
+        btnOne.style.color = 'yellow';
+        btnOne.style.backgroundColor = 'black';
+        btnOne.style.height = '200px';
+        btnOne.style.width = '200px';
+
+        // Sự kiện khi click vào nút Green
+        btnOne.addEventListener('click', function changeColor(){
+            document.body.style.backgroundColor = 'green';
+        });
+
+        // Sự kiện khi click vào nút Blue
+        var btnTwo = document.getElementById("two");
+        btnTwo.addEventListener('click', function changeColor(){
+            document.body.style.backgroundColor = 'blue';
+        });
+
+        // Sự kiện khi click vào nút Red
+        var btnThree = document.getElementById("three");
+        btnThree.addEventListener('click', function changeColor(){
+            document.body.style.backgroundColor = 'red';
+        });
+    </script>
+</body>
+</html>

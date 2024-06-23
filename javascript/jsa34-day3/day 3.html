@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /**
+ * >, <, ==, ===, !=, ===, >=, <=
+ * ||: Hoặc => 1 trong 2 thằng đúng là sẽ trả về đúng
+ * &&: Và => Cả 2 thằng cùng đúng thì sẽ trả về đúng
+ *
+ * Lưu ý:
+ * == : So sánh giá trị và không quan tâm đến kiểu dữ liệu
+ * ===: Như bên trên nhưng set đến cả kiểu dữ liệu
+ *
+ * */
+
+        // let a = 10;
+        // let b = "10";
+        // let c = 8;
+        // let soSanh = a === b || (a > c && 8 < 3);
+        // console.log(soSanh);
+
+        let score = 8;
+        /**
+         * 0 -> 4 => Kém
+         * 4 -> 5 => Hạng Trung Bình
+         * 5 -> 6 => Trung bình khá
+         * 6 -> 7 => Khá
+         * 7 -> 8 => Khá giỏi
+         * 8 -> 9 => Giỏi
+         * 9 -> 10 => Xuất sắc
+         */
+
+        // Câu điều kiện so sánh if else
+        /**
+        //  * Chú ý: Điều kiện ở trong if không baoh giống nhau
+         * if(điều kiện) {
+         *     chạy code ở if
+         * } else if (điều kiện) {
+         *
+         * } else if (điều kiện) {
+         *      
+         * } else {
+         *      
+         * }
+         */
+
+        let t = 10;
+
+        if (score == 7) {
+            console.log("Đây là số 7");
+        } else if (score == 9) {
+            console.log("số 8 nè");
+        } else if (t - 2 == 8) {
+            if (score % 2 == 0) {
+                console.log(score + " chia hết cho 2");
+            } else {
+                console.log(score + " chia hết cho 2");
+            }
+
+            console.log("số 8 mới nè");
+        } else {
+            console.log("Không phải số 8")
+        }
+        let student_a ={
+            name:"thắng",
+            age : 20,
+            school : "ngoại thương",
+            status :bored,
+        }
+
+        let student_b = {
+            name: "đăng",
+            age : 16,
+            school : "hai bà trưng",
+            status :sad,
+
+        }
+        let student_c ={
+            name:"hào",
+            age :17,
+            school : "kim liên",
+            status: fun,
+        }
+    //truy cập thuộc tính của đối tượng : tên đối tượng thuộc tính  
+    </script>
+</body>
+
+</html>

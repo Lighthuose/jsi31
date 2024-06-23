@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+     // viết code của ngôn ngữ javascript
+// Javascript cho phép ta viết code ở trên trình duyệt
+
+// in ra console:
+// Console: nhiệm vụ phát hiện lỗi của chúng ta trong quá trình code
+console.log("Hello World");
+// console.log(abc);
+
+/**
+      1. Các kiểu dữ liệu trong js
+        - String: Tập hợp của nhiều ký tự và chúng phải được viết ở trong ngoặc kép
+            VD: "kjasndkj4359834895@$%&*&"
+                "123"
+                '123'
+                
+        - Number: giá trị ở dạng số và nó không cần ngoặc kép bao quanh
+                VD: 123, 9.9, -1100
+        
+        - Boolean: giá trị của chúng 1 là true 2 là false
+                VD: true và false
+*/
+// console.log(typeof 123);
+// console.log('"sldnfjnk123"');
+// console.log(typeof true);
+// console.log("Phương");
+// console.log(30);
+
+/**
+ * 2. Khai báo biến trong JS:
+ * - Khi khai báo biến, tên biến là đại diện của giá trị
+ * => dùng biến để lưu giá trị
+ * Quy tắc đặt tên biến:
+ * + tên biến chỉ được khai báo 1 lần
+ * + chữ viết liền
+ * + ko nên dùng có dấu tiếng việt
+ * + ko được để số ở trên đầu
+ * + nên đặt tiên biến sát nghĩa với giá trị
+ * - Để khai báo biến ta 3 kiểu như sau: let, var, const
+ * + let: có thể thay đổi lại cho chúng 1 giá trị mới
+ * + const: ko thể thay đổi giá trị gốc của biến
+ */
+
+// const name = prompt("Enter name: ");
+// // name = "Yasuo"
+// let age = prompt("Enter age: ");
+
+// let address = prompt("Enter address");
+
+// alert(
+//   "Tôi tên là " + name + ", năm nay tôi " + age + ". Tôi sống ở " + address
+// );
+
+/**
+ * 3. prompt("String") và alert("String")
+ * alert(): Hiện ra 1 cảnh báo ở trình duyệt
+ * prompt(): hiện ra 1 input để người dùng nhập nội dung
+ */
+
+// alert("Xin chào các bạn nhé, mình là Bệu Bé Bỏng đây !!!");
+// let inputValue = prompt("Tài khoản của bạn vừa hết tiền, vui lòng nạp: ");
+
+// alert("Số tiền bạn vừa nạp là: " + inputValue);
+
+/**
+ * 4. Phép toán trong JS: +, -, *, /, %, **
+ * %: Chia lấy dữ
+ * **: Dấu mũ
+ * Math.sqrt(value): Dấu căn
+ */
+
+let t = 10;
+let q = Number(prompt("Nhập số thứ 2"));
+// q = Number(q);
+
+// Ép kiểu trong JS: Number(), String(), Boolean()
+
+console.log(t + q);
+
+let a = 3;
+let b = 4;
+let c = 5;
+
+let p = (a + b + c) / 2; // nửa chu vi
+let s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+
+console.log("S = " + s);
+   </script>
+</body>
+</html>

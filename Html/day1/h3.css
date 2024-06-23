@@ -1,0 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    text-align: center;
+    padding: 15%;
+    width: 100vw;
+    height: 100vw;
+    background: url('https://24hstore.vn/upload_images/images/2023/hinh-nen-may-tinh/1-1-hinh-nen-may-tinh-chill-win-10-1.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 330px;
+} 
+
+
+    

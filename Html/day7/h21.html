@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .content {
+        width: 30px;
+        text-wrap: nowrap;
+        overflow: hidden;
+        transition-property: width, text-wrap;
+        transition-duration: 1.5s;
+    }
+
+    .content:hover {
+        width: 100%;
+
+    }
+    button{
+        
+    }
+    .box {
+        background-color: aqua;
+        width: 185px;
+        height: 200px;
+        text-wrap: nowrap;
+        transition-property: all;
+        transition-duration: 1.5s;
+            margin-left: -190px;
+    }
+
+    .hover_me:hover~.box{
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+    }
+</style>
+
+<body>
+    <p class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt delectus
+        aliquid eveniet adipisci! Maiores nostrum, molestias laboriosam
+        necessitatibus exercitationem accusantium repudiandae dolorum iusto.
+        Consectetur nisi sunt saepe ipsam non. Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Id facere sequi qui nisi, esse corporis
+        fugiat! Autem, fugit asperiores rem omnis eligendi deserunt repellendus,
+        ad sunt nobis consequuntur id qui!
+    </p>
+    <button class="hover_me">hover me</button>
+    <div class="box box1"></div>
+</body>
+
+</html>

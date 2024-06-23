@@ -1,0 +1,45 @@
+/* cách kiểu display trong css ;*/
+/* display :block
+=) 1 thẻ có nội dung chiếm hết trang màn hình */
+/* display:inline dùng để hai thẻ cùng hàng ngang*/
+/* display:inline-block giống như inline nhưng chỉnh sửa đc chiều dài và chiều rộng */
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid blue;
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 5px dashed black;
+    display: inline-block;
+  }
+  
+  .box3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 5px dotted purple;
+    display: inline-block;
+
+  }
+  .line1{
+    background-color: aquamarine;
+    padding: 5px
+    padding-left 20px;
+    display: inline;
+  }
+  .line2{
+    background-color: pink;
+    display: inline;
+  }
+  .left1{
+    width: 350px;
+    height: 250px;
+    
+  }

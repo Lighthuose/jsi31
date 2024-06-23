@@ -1,0 +1,304 @@
+
+.b1 {
+    background-color: red;
+    width: 100%;
+    height: 130px;
+position: relative;
+top: 40px;
+}
+
+.b2 {
+    background-color: red;
+    width: 100%;
+    height: 43px;
+    padding-top: 10px;
+}
+
+.il1 {
+    color: white;
+    display: inline;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+
+}
+
+.il2 {
+    display: inline;
+    color: white;
+    font-size: 19px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 30px;
+}
+
+.hl1 {
+    color: black;
+    font-size: 20px;
+    width: 450px;
+    position: relative;
+    top: 30px;
+    right: -30px;
+}
+.tl6{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    left: 30px;
+    top: 30px;
+}
+
+.tl1 {
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    top: 30px;
+    color: aquamarine;
+}
+
+.tl2 {
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    top: 30px;
+    color: aquamarine;
+}
+.tl3{
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    top: 30px;
+    color: white;
+}
+.tl4{
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    top: 30px;
+    color: white;
+}
+.tl5{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    color: white;
+    left: 160px;
+    font-size: 20px;
+
+
+}
+.container {
+    background-color: rgba(250, 235, 215, 0.587);
+    width: 100%;
+    height: 70%;
+    position: relative;
+    top: 100px;
+}
+
+/* .top {
+    background-color: orange;
+    width: 100%;
+    height: 100px;
+} */
+
+.input {
+    font-size: 20px;
+    width: 400px;
+    position: relative;
+    left: 500px;
+    top: 25px;
+}
+
+.box1 {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 220px;
+    position: relative;
+    left: 80px;
+    top: 60px;
+
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+p {
+    position: relative;
+    left: 20px;
+}
+
+.box2 {
+    background-color: white;
+    width: 150px;
+    height: 220px;
+    position: relative;
+    left: 330px;
+    bottom: 160px;
+}
+
+
+.box3 {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    left: 600px;
+    bottom: 370px;
+}
+
+.boxtop {
+    display: flex;
+    display: inline-block;
+    /* background-color: rgba(250, 235, 215, 0.587);
+    width: 100px;
+    height: 500px; */
+}
+
+.box4 {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    left: 700px;
+    bottom: 370px;
+}
+
+.box5 {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 370px;
+    left: 790px;
+}
+
+.boxbottom {
+    display: flex;
+    display: inline-block;
+}
+
+.box6 {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+    right: 380px;
+}
+
+.box7 {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+    right: 290px;
+}
+.box8{
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 110px;
+    right: 170px;
+}
+.box9{
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+    right: 70px;
+}
+.box10{
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 110px;
+    left: 20px;
+}
+.i1{
+    position: relative;
+    left: 10px;
+}
+.t1{
+    position: relative;
+    bottom: 12px;
+}
+.i2{
+    position: relative;
+    bottom: 1px;
+    left: 5px;
+}
+.t2{
+    position: relative;
+left: 15px;
+}
+.i3{
+    position: relative;
+    top: -6px;
+    left: 14px;     
+   }
+.t3{
+    position: relative;
+    top: -15px;
+}
+.i4{
+    position: relative;
+    left: 10px;
+}
+.t4{
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+}
+.i5{
+    position: relative;
+    left: 8px;
+}
+.t5{
+    position: relative;
+    top: -10px;
+}
+.i6{
+    position: relative;
+    left: 10px;
+}
+.t6{
+    position: relative;
+    bottom: 12px;
+}
+.i7{
+    position: relative;
+    left: 9px;
+}
+.t7{
+    position: relative;
+    bottom: 8px;
+    left: 50px;
+}
+.i9{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+.t9{
+    position: relative;
+    bottom: 15px;
+}

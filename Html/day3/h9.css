@@ -1,0 +1,33 @@
+.card_container{
+    width: 740px;
+    height: 150px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.left{
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfOpN6PJum4xJPQOLZFKQ6A7WTak_KTMHsUqtYQdPxvq-9aUIt);
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    background-repeat: no-repeat ;
+    vertical-align: top;
+    border: 3px solid black;
+    background-size: cover;
+}
+
+.right {
+    padding-left: 10px;
+    border: 3px solid black;
+    width: 350px;
+    height: 60px;
+    display: inline-block;
+}
+h2{
+    width: 400px;
+}
+p{
+    color: gray;
+
+}

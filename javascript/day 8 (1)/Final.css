@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.everything {
+  margin: 20px;
+  border: 2px solid rgb(248, 247, 247);
+}
+.topmain {
+  width: 100%;
+  max-width: 900px;
+  /* Set a maximum width to avoid the content spreading too wide */
+  margin: 0 auto;
+  /* Center the content on large screens */
+  background-color: white;
+}
+.topbar {
+  height: 50px;
+  background-color: rgb(150, 250, 157);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.topbarbox {
+  height: 40px;
+  width: 100%;
+  justify-content: center;
+}
+.webname {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+.bottombox {
+  height: fit-content;
+  text-align: center;
+  border: 5px solid rgb(235, 233, 233);
+  margin-top: 15px;
+  overflow: hidden;
+}
+.aboutus {
+  padding-top: 10px;
+  height: fit-content;
+  background-color: rgb(48, 131, 96);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.aboutus:hover {
+  background-color: rgb(50, 114, 88);
+}
+.paddingleft {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+i {
+  width: 30px;
+  height: 30px;
+}
+.picture img {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+.viewtherapist {
+  padding-top: 10px;
+  height: fit-content;
+  background-color: rgb(100, 199, 146);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewtherapist:hover {
+  background-color: rgb(88, 171, 127);
+}
+.info {
+  background-color: rgb(66, 181, 127);
+  height: fit-content;
+  color: white;
+}
+.headings {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.container1 {
+  display: flex;
+  justify-content: space-around;
+}
+.box1 {
+  padding-top: 25px;
+  padding-left: 8px;
+  width: 250px;
+  height: 425px;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+.box1:hover {
+  background-color: rgb(192, 186, 186);
+}
+.img {
+  width: 240px;
+  height: 300px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

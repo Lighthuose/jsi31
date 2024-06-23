@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>localstrage</h1>
+    <ul>
+        <li>lưu trữ dữ liệu ở trình duyệt</li>
+        <li>các dữ liệu không bị mất đi nếu ta dung reresh trang</li>
+        <li>mỗi khi mở các tab trang có đường dẫn tương úng thì ta vẫn có thể truy cập vào dữ liệu</li>
+        <li>lưu dữ liệu : localStorage .setItem("key")</li>
+        <li>lấy dữ liệu:localStorage.getItem ("key")</li>
+        <li>Xóa dữ liệu theo Key: localStorage.removeItem("Key")</li>
+        <li>Xóa toàn bộ dữ liệu: localStorage.clear()</li>
+    </ul>
+    <script>
+        //lưu dữ liệu
+/*
+localStorage.setItem("name","đăng");
+localStorage.setItem("name1","phuong");
+localStorage.setItem("name","bách");
+localStorage.setItem("age","100");
+*/
+
+//lấy dữ liệu
+/*
+let name_localStorage = localStorage.getItem("name");
+
+let age_localStorage = localStorage .getItem("age")
+console.log( `${name_localStorage }-${age_localStorage }` );
+*/
+
+//bài tập
+localStorage.setItem("school","hai bà trưng");
+localStorage.setItem("address","tân xã");
+let name_localStorage = localStorage .getItem("school");
+let age_localStorage  = localStorage .getItem("addres");
+console.log(` ${school_localStorage} -${address_localStorage} `);
+
+let delete_all = document.getElementById("delete_all");
+deleete_all.addEventListener("click",function() {
+ localStorage.removeItem("Name");
+});
+// dùng dom laasy nút delet_age theo hàm documet.querySelector("")
+
+
+let football_player = {
+  name: "Kaka",
+  age: 40,
+  club: "AC Milan",
+  height: "1m78",
+};
+
+console.log(football_player.club);
+
+// Lưu vàojkajfjdsjdsfjk l;ầ
+localStorage.setItem("player", JSON.stringify(football_player));
+
+/**
+ * Khi lưu 1 dữ liểu dạng object hoặc array vào localStorage: dùng JSON.stringify(object/array)
+ * Khi lấy dữ liệu được lưu ở dạng object String hoặc array String thì ta dùng: JSON.parse()
+ */
+
+let play_local = localStorage.getItem("player");
+console.log(play_local.height);
+console.log(JSON.parse(play_local).height);
+
+
+
+    </script>
+</body>
+</html>

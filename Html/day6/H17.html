@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 6</title>
+    <style>
+        h1 {
+            position: absolute;
+            color: green;
+            /* top: 80px;
+        left: 50px; */
+        }
+
+        /* Position: relative, absolute, fixed 
+            Khi gọi với 1 trong các giá trị tương ứng thì lúc đó
+            ta có thể dùng các thuộc tính: 
+            - top
+            - bottom
+            - left
+            - right 
+        */
+
+        .container {
+            width: 500px;
+            height: 400px;
+            background-color: antiquewhite;
+            position: relative;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+
+        .box1 {
+            background-color: red;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+        }
+
+        .box2 {
+            background-color: green;
+            position: absolute;
+            left: 40px;
+        }
+
+        .box3 {
+            background-color: blue;
+            position: absolute;
+            left: 80px;
+        }
+
+        .box4 {
+            background-color: pink;
+        }
+
+        .new_box {
+            border: 3px solid black;
+            width: 350px;
+            height: 350px;
+            background-color: gray;
+        }
+        .new_box:hover{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nguyễn Danh Phương</h1>
+
+    <ol class="myClass">
+        <li>sjkdfnsd</li>
+        <li>sdfnsdkf</li>
+        <li>kjsdfkjsf</li>
+    </ol>
+
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+    </div>
+    <div class="new_box"></div>
+</body>
+
+</html>

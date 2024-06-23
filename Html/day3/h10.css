@@ -1,0 +1,25 @@
+div {
+    width: 400px;
+    height: 230px;
+    background-color: rebeccapurple;
+    border:rebeccapurple;
+    padding: 5px;
+}
+h1{
+    display: inline;
+    color: white;
+}
+ .id1{
+    display: inline;
+    color: hotpink;
+ }
+ .id3{
+   display: inline;
+   color: darkslateblue;
+ }
+ .h2{
+    color: white;
+ }
+ p{
+    color: gray;
+ }

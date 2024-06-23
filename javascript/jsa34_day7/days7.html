@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LOGIN</h1>
+    <label>Họ và tên: </label>
+    <input type="text" name="" id="username">
+    <br>
+    <label>Mât khẩu: </label>
+    <input type="password" name="" id="pass">
+    <br>
+    <input type="button" id ='login'>Đăng nhập</button>
+    <script>
+        var us = 'abcxyz';
+        var passus = 123456;
+
+        var usernameInfo = document.getElementById('username');
+        var passInfo = document.getElementById('pass');
+
+        var loginInfo = document.getElementById('login');
+        loginInfo.addEventListener("click", function a(){
+            if(usernameInfo.value == us && passInfo.value == passus){
+                alert("Đăng nhập thành công");
+            }else{
+                alert("Đăng nhập không thành công");
+            }   
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.everything {
+  margin: 20px;
+  border: 2px solid rgb(248, 247, 247);
+  border-radius: 15px;
+  min-height: 90vh;
+}
+.color {
+  color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  border: 1px rgb(248, 247, 247) solid;
+}
+
+.container:hover {
+  background-color: #bab3b3;
+}
+.image {
+  max-width: 20%;
+  height: 100;
+  margin-right: 20px;
+}
+.buttoncontainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #2aae1e;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #22853c;
+}
+.head {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: fit-content;
+  background-color: #196c12;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.headings {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.info {
+  background-color: rgb(66, 181, 127);
+  height: fit-content;
+  color: white;
+}
+.under {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+#search-box{
+  background: #fff;
+  border-radius: 30px;
+  border: black 1px solid;
+}
+
+#search-box #search-text{
+  border: none;
+  outline: none;
+  background: none;
+   padding: 0;
+
+}
+
+#search-box #search-btn{
+  background-color: #fff;
+  border: none;
+  padding:  10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#search-text #search-btn{
+  width: 300px;
+}
+
+.red{
+  position: relative;
+  color: red;
+display: inline-block;
+}
+.black{
+  position: relative;
+  color: black;
+  display: inline-block;
+}
+
+
+.total{
+  width: 90vw;
+  min-height: 80vh;
+  border: red 2px solid;
+}
